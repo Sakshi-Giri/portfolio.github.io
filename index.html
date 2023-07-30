@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PortFlix - Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- Navbar  Section Start -->
+    <header>
+
+        <a href="#" class="logo">Port <span> Folio</span>.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Navbar Section End -->
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/sakshi-giri-491506238/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="Images/self.jpg" alt=" Broken">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Sakshi Giri</h1>
+            <h2>Full Stack Java Developer</h2>
+            <p>Lorem ipsum dolor sit amet cons <br> adipisicing elit. Minima, consectetur <br> ullam?</p>
+            <a href="#join" class="btn">Download CV</a>
+        </div>
+    </section>
+    <!-- Home Section End -->
+    <!-- About Section Start -->
+
+    <section class="about" id="about">
+        <div class="container">
+
+        <div class="about-container">
+            <div class="about-col-1">
+                <img src="https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-diploma-education-day_23-2149241011.jpg?w=360&t=st=1681757036~exp=1681757636~hmac=7fbccbebf63b9dffbe264f8bbbe9b74f18a58fb3682d863ff2b703ac94b66491" alt="">
+            </div>
+
+            <div class="about-col-2">
+                <h2>About Me</h2>
+                <span>Description</span>
+            </br>
+            </br>
+                <p>&nbspI solve technical problems/errors in creative ways. At P.ES Modern College Of Engineering, where I
+                    am completing my Third year of Computer Science Branch. I have learned the importance of algorithm
+                    and code in various projects</br>
+                </br>
+                    &nbsp I enjoy meeting new people and working with them as a team. I am quick learner with a fun, outing
+                    personality, love to dance. i am open to learning new things and getting involved with new projects
+                    that can help me learn or apply all that I have learned through my college career.
+                </br>
+                    &nbsp &nbsp My goal is to provide my clients with high quality service.</p>
+            </br>
+                <div class="tab-title">
+                    <h6 class="tab-links active-link" onclick="opentab('skills')">Skills</h6>
+                    <h6 class="tab-links" onclick="opentab('Education')">Education</h6>
+                    <h6 class="tab-links" onclick="opentab('Experience')">Experience</h6>
+                </div>
+                <div class="tab-contents tab-skill" id="skills">
+                    <ul>
+                        <li><span>Front-End Technologies</span><br>HTML<br>CSS<br>JavaScript</li>
+                        <li><span>Back-End Technologies</span><br>Java<br>Php</li>
+                        <li><span>Database Technologies</span><br>SQL<br>MYSQL<br>DBMS</li>
+                        <li><span>Soft Skills</span><br>Communication<br>Creativity<br>Teamwork</li>
+                    </br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>PES Modern College of Engineering, Pune</span><br>2021 - Present</li>
+                        <li><span>Dattakala International School & Jr. College, Pune</span><br>2020</li>
+                        <li><span>AFAC English School & Jr. College, Mumbai</span><br>2018</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Oasis Infobyte</span><br>Web Development & Designing<br>Jan/2023 - Feb/2023</li>
+                        <li><span>AICTE</span><br>Cyber Security Virtual Internship<br>March/2022 - May/2023</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+       </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Services Section Start -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-content">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brush'></i>
+                <h3>UI/UX Design</h3>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-android'></i>
+                <h3>Collaboration with Team</h3>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <div id="portfolio">
+        <div class="heading">
+            <h2>My Work</h2>
+            <span>Project</span>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Calculator have interactive interface to perform basic functions such as addition, subtraction, division, and multiplication</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Tribute Page</h3>
+                        <p>This page is about Savitribai Phule, whom I admire the most</p>
+                        <a href="#"><i class="fa fa-refresh"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>To Do List</h3>
+                        <p>This allow user to add new itemm and can mark a task completed also their is separate section titled Pending Tasks</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn "> See More</a>
+        </div>
+
+    </div>
+</br>
+<!-- Joined Me Section Start -->
+
+<section class="Join" id="join">
+    <div class="heading">
+        <h2>Joined Me</h2>
+        <span>Connect Me</span>
+
+    </div>
+<div class="information">
+    <div class="info-box">
+        <i class='bx bxs-user'></i>
+        <span>Sakshi Giri</span>
+    </div>
+
+    <div class="info-box">
+        <i class='bx bxs-phone'></i>
+        <span>+91 8369982684</span>
+    </div>
+
+    <div class="info-box">
+        <i class='bx bxs-envelope'></i>
+        <span>sakshi.giri2910@gmail.com</span>
+    </div>
+    <a href="Sakshi_Giri_Developer.pdf" class="contact-btn">Download Cv</a>
+
+<!-- Joined Me Section End -->
+
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Us</span>
+
+        </div>
+        
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textare name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textare>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+    <div class="footer">
+        <h2>Follow Us</h2>
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © PortFolio | All Right Reserved.</p>
+    </div>
+    <!-- Javascript -->
+    
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
